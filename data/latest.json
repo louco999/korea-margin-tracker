@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-07-27",
+  "fetched_at": "2026-07-29T04:43:24Z",
+  "unit": "trillion_KRW",
+  "margin_loan": 32.741063,
+  "margin_loan_change": 0.069393,
+  "short_sale": 0.030074,
+  "securities_backed_loan": 24.690322,
+  "credit_total": 57.461459,
+  "investor_deposit": 109.167491,
+  "source": "KOFIA FreeSIS STATSCUSUBMAIN01",
+  "source_url": "https://freesis.kofia.or.kr/",
+  "recent_days": [
+    {
+      "date": "2026-07-06",
+      "investor_deposit": 112.208237,
+      "margin_loan": 37.660002,
+      "short_sale": 0.034927,
+      "securities_backed_loan": 25.285096,
+      "credit_total": 62.980024
+    },
+    {
+      "date": "2026-07-07",
+      "investor_deposit": 112.325979,
+      "margin_loan": 37.065396,
+      "short_sale": 0.032838,
+      "securities_backed_loan": 24.357516,
+      "credit_total": 61.45575
+    },
+    {
+      "date": "2026-07-08",
+      "investor_deposit": 110.874403,
+      "margin_loan": 37.199867,
+      "short_sale": 0.030962,
+      "securities_backed_loan": 24.70507,
+      "credit_total": 61.9359
+    },
+    {
+      "date": "2026-07-09",
+      "investor_deposit": 107.127865,
+      "margin_loan": 36.633641,
+      "short_sale": 0.027897,
+      "securities_backed_loan": 25.223393,
+      "credit_total": 61.884931
+    },
+    {
+      "date": "2026-07-10",
+      "investor_deposit": 105.575754,
+      "margin_loan": 35.573983,
+      "short_sale": 0.02546,
+      "securities_backed_loan": 25.237585,
+      "credit_total": 60.837027
+    },
+    {
+      "date": "2026-07-13",
+      "investor_deposit": 109.01157,
+      "margin_loan": 34.788619,
+      "short_sale": 0.0242,
+      "securities_backed_loan": 24.872258,
+      "credit_total": 59.685077
+    },
+    {
+      "date": "2026-07-14",
+      "investor_deposit": 111.28248,
+      "margin_loan": 34.707755,
+      "short_sale": 0.02858,
+      "securities_backed_loan": 24.804274,
+      "credit_total": 59.540609
+    },
+    {
+      "date": "2026-07-15",
+      "investor_deposit": 109.866972,
+      "margin_loan": 34.370184,
+      "short_sale": 0.026953,
+      "securities_backed_loan": 25.87791,
+      "credit_total": 60.275047
+    },
+    {
+      "date": "2026-07-16",
+      "investor_deposit": 108.081874,
+      "margin_loan": 33.362442,
+      "short_sale": 0.024274,
+      "securities_backed_loan": 25.195635,
+      "credit_total": 58.582352
+    },
+    {
+      "date": "2026-07-20",
+      "investor_deposit": 112.519003,
+      "margin_loan": 33.332642,
+      "short_sale": 0.030774,
+      "securities_backed_loan": 24.782509,
+      "credit_total": 58.145926
+    },
+    {
+      "date": "2026-07-21",
+      "investor_deposit": 106.69298,
+      "margin_loan": 33.558388,
+      "short_sale": 0.025257,
+      "securities_backed_loan": 24.912476,
+      "credit_total": 58.496121
+    },
+    {
+      "date": "2026-07-22",
+      "investor_deposit": 103.876545,
+      "margin_loan": 33.042098,
+      "short_sale": 0.020774,
+      "securities_backed_loan": 25.067386,
+      "credit_total": 58.130259
+    },
+    {
+      "date": "2026-07-23",
+      "investor_deposit": 104.297489,
+      "margin_loan": 32.749219,
+      "short_sale": 0.025929,
+      "securities_backed_loan": 24.838296,
+      "credit_total": 57.613444
+    },
+    {
+      "date": "2026-07-24",
+      "investor_deposit": 105.63707,
+      "margin_loan": 32.67167,
+      "short_sale": 0.023451,
+      "securities_backed_loan": 24.709692,
+      "credit_total": 57.404813
+    },
+    {
+      "date": "2026-07-27",
+      "investor_deposit": 109.167491,
+      "margin_loan": 32.741063,
+      "short_sale": 0.030074,
+      "securities_backed_loan": 24.690322,
+      "credit_total": 57.461459
+    }
+  ]
+}

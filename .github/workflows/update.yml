@@ -1,0 +1,57 @@
+name: Update Korea margin data
+
+on:
+  schedule:
+    # KOFIA daily stats usually settle after KRX close (KST).
+    # 10:00 UTC ≈ 19:00 KST — good default for T+0/T+1 publish.
+    - cron: "0 10 * * 1-5"
+    # Extra morning catch-up (01:00 UTC ≈ 10:00 KST)
+    - cron: "0 1 * * 1-5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "requirements.txt"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: margin-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch KOFIA & rebuild chart
+        run: python -m src.update
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ charts/ README.md
+          if git diff --staged --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          AS_OF=$(python -c "import json; print(json.load(open('data/latest.json'))['as_of'])")
+          ML=$(python -c "import json; print(json.load(open('data/latest.json'))['margin_loan'])")
+          git commit -m "data: margin loan ${ML}T KRW as of ${AS_OF}"
+          git push
