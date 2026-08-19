@@ -13,16 +13,16 @@
 <!-- LATEST:START -->
 | Field | Value |
 |---|---|
-| **As of** | `2026-08-14` |
-| **Margin loan (신용거래융자)** | **30.87 trillion KRW** |
-| **Day change** | `-0.06` trillion KRW |
-| **Securities-backed loan** | 24.92 T |
-| **Credit total** | 55.82 T |
-| **Investor deposits** | 100.71 T |
-| **Fetched at (UTC)** | `2026-08-19T02:18:04Z` |
+| **As of** | `2026-08-18` |
+| **Margin loan (신용거래융자)** | **31.10 trillion KRW** |
+| **Day change** | `+0.24` trillion KRW |
+| **Securities-backed loan** | 25.19 T |
+| **Credit total** | 56.33 T |
+| **Investor deposits** | 104.76 T |
+| **Fetched at (UTC)** | `2026-08-19T10:31:50Z` |
 <!-- LATEST:END -->
 
-![Margin loan chart](charts/margin_balance.png?v=20260814)
+![Margin loan chart](charts/margin_balance.png?v=20260818)
 
 原始数据：[`data/margin_balance.csv`](data/margin_balance.csv) · 最新快照：[`data/latest.json`](data/latest.json)
 
@@ -55,7 +55,7 @@ GitHub Actions 工作流：`.github/workflows/update.yml`
 每次成功拉取会：
 
 1. 合并最新约 15 个交易日数据进 CSV  
-2. 重绘 `charts/margin_balance.png?v=20260814`  
+2. 重绘 `charts/margin_balance.png?v=20260818`  
 3. 更新 README 最新快照表  
 4. 自动 commit / push（仅在有变化时）
 
