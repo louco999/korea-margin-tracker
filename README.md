@@ -19,7 +19,7 @@
 | **Securities-backed loan** | 25.14 T |
 | **Credit total** | 51.43 T |
 | **Investor deposits** | 84.18 T |
-| **Fetched at (UTC)** | `2026-11-19T08:26:58Z` |
+| **Fetched at (UTC)** | `2026-11-19T18:54:43Z` |
 <!-- LATEST:END -->
 
 ![Margin loan chart](charts/margin_balance.png?v=20261118)
