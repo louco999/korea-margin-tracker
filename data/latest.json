@@ -1,24 +1,16 @@
 {
-  "as_of": "2026-11-18",
-  "fetched_at": "2026-11-19T18:54:43Z",
+  "as_of": "2026-11-19",
+  "fetched_at": "2026-11-20T08:08:02Z",
   "unit": "trillion_KRW",
-  "margin_loan": 26.266366,
-  "margin_loan_change": -0.067489,
-  "short_sale": 0.027594,
-  "securities_backed_loan": 25.136339,
-  "credit_total": 51.4303,
-  "investor_deposit": 84.18486,
+  "margin_loan": 26.083277,
+  "margin_loan_change": -0.183089,
+  "short_sale": 0.025693,
+  "securities_backed_loan": 25.037672,
+  "credit_total": 51.146642,
+  "investor_deposit": 81.566952,
   "source": "KOFIA FreeSIS STATSCUSUBMAIN01",
   "source_url": "https://freesis.kofia.or.kr/",
   "recent_days": [
-    {
-      "date": "2026-10-29",
-      "investor_deposit": 88.713283,
-      "margin_loan": 29.088592,
-      "short_sale": 0.02937,
-      "securities_backed_loan": 25.505941,
-      "credit_total": 54.623903
-    },
     {
       "date": "2026-10-30",
       "investor_deposit": 90.235106,
@@ -130,6 +122,14 @@
       "short_sale": 0.027594,
       "securities_backed_loan": 25.136339,
       "credit_total": 51.4303
+    },
+    {
+      "date": "2026-11-19",
+      "investor_deposit": 81.566952,
+      "margin_loan": 26.083277,
+      "short_sale": 0.025693,
+      "securities_backed_loan": 25.037672,
+      "credit_total": 51.146642
     }
   ]
 }
